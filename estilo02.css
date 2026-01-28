@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 80vw;
+    justify-self: center;
+    background: rgb(122, 221, 221);
+    
+}
+header{
+    display: flex;
+    background: rgb(100, 223, 176);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+
+}
+ nav{
+    background: rgb(72, 138, 92);
+    padding: 10px;
+    text-align: center;
+ }
+ nav a {
+    color: aliceblue;
+    margin: 10px 10px;
+    text-decoration: none;
+
+}
+nav a:hover {
+    text-decoration: underline;
+
+}
+nav a:visited{
+    color: red;
+}
+
+.botonactive:active{
+    color: blue;
+    background-color: aqua;
+    border: black 1px;
+    border-radius: 2px;
+    width: 100px;
+    padding: 2px;
+}
+
+.spaminteractivo:hover{
+    color: red;
+}
+section{
+    background-color: azure;
+    margin: 2px;
+    padding: 20px;
+
+}
+.cajahover{
+    background-color: rgb(63, 154, 235);
+    padding: 20px;
+    text-align: center;
+}
+
+.cajahover:hover{
+    cursor: pointer;
+    background-color: rgb(142, 195, 238);
+}
+
+input:focus{
+    outline: 2px solid steelblue;
+    
+}
+.etiquetachequed{
+    cursor: pointer;
+}
+.etiquetachequed input:checked {
+outline: 2px  red solid;
+}
+.spam-interactivo {
+    background-color: yellow;
+    padding: 3px 6px;
+    cursor: pointer;
+    transition: backround 0.3s;
+}
+.spam-interactivo:hover {
+    background: red;
+}
+audio {
+    margin: 10px;
+}
+video {
+    margin: 50px;
+}
+
+footer{
+    background-color: rgb(129, 192, 201);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

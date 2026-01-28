@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Estados interactivos en HTML y CSS</title>
+  <link rel="stylesheet" href="estilo02.css">
+</head>
+<body>
+
+  <header>
+    <h1>Estados interactivos CSS</h1>
+    <p>Cada sección muestra un tipo de estado distinto</p>
+  </header>
+
+  <!-- VISITED + HOVER -->
+  <nav>
+    <a href="https://www.google.com" target="_blank">Enlace visitable</a>
+    <a href="#">Otro enlace</a>
+  </nav>
+
+  <main>
+
+    <!-- HOVER -->
+    <section>
+      <h2>:hover</h2>
+      <div class="cajahover">Pasa el ratón por encima</div>
+    </section>
+
+    <!-- ACTIVE -->
+    <section>
+      <h2>:active</h2>
+      <button class="botonactive">Pulsa el botón</button>
+    </section>
+
+    <!-- FOCUS -->
+    <section>
+      <h2>:focus</h2>
+      <input type="text" placeholder="Haz clic aquí">
+    </section>
+
+    <!-- CHECKED -->
+    <section>
+      <h2>:checked</h2>
+      <label class="etiquetachecked">
+        <input type="checkbox">
+        Acepto las condiciones
+      </label>
+    </section>
+
+    <!-- SPAN INTERACTIVO -->
+    <section>
+      <h2> &lt;span&gt; interactivo</h2>  <!--Curiosidad: si ponemos <span> nos detecta como etiqueta. necesitamos poner ciertos caracteres ASCII para que nos lo detecte SOLO como tecto -->
+      <p>
+        Esto es un texto con un
+        <span class="spaninteractivo">span interactivo</span>
+        dentro.
+      </p>
+    </section>
+
+    <!-- MULTIMEDIA -->
+    <section>
+      <h2>Multimedia</h2>
+      <audio controls>
+        <source src="audio/audio.mp3.mp3" type="audio/mpeg">
+      </audio>
+
+      <video controls width="300">
+        <source src="video/video.mp4.mp4" type="video/mp4">
+      </video>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© Iván Morales Fernández</p>
+  </footer>
+
+</body>
+</html>
